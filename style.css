@@ -1,0 +1,75 @@
+/* خلفية الموقع */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111111; /* خلفية غامقة */
+  color: #eeeeee; /* نصوص فاتحة */
+  text-align: center;
+}
+
+/* رأس الصفحة */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #1a1a1a; /* غامق شوية عن الخلفية */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+/* اللوجو */
+.logo {
+  font-size: 38px;
+  font-weight: bold;
+  color: #f5f5f5; /* فاتح */
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 8px rgba(255,255,255,0.2); /* ظل فاتح */
+}
+
+/* روابط القائمة */
+nav a {
+  color: #eeeeee;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00; /* أصفر عند المرور */
+}
+
+/* الأقسام */
+section {
+  padding: 100px 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #cccccc;
+}
+footer {
+  background: #eeeeee;    /* خلفية فاتحة */
+  color: #222222;         /* باقي النص غامق */
+  padding: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+/* ذيل الصفحة */
+footer {
+  background: #eeeeee; /* خلفية فاتحة */
+  color: #222222;      /* نص غامق وواضح */
+  padding: 20px;
+  font-size: 14px;
+  font-weight: bold;   /* يخليه أوضح */
+  letter-spacing: 1px; /* مسافات بسيطة بين الحروف */
+}
